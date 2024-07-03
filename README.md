@@ -10,17 +10,25 @@ Two versions are available :
 
 ## Dependencies
 ```
-numpy
-matplotlib
+python==3.9.19
+numpy==1.26.4
+matplotlib==3.8.4
+numba==0.59.1
 ```
 
 ## Run
 ```
-python TraT_sim_one_donor.py [-h] [options]
-	-m, --mode		[required] 'm' (movie) or 'b' (batch)
-	-ei					Exclusion index. By default set to 1 (no exclusion).
-	-r, --repeat		Number of repeats in batch mode. By default set to 100.
-	-d					Dead cutoff. Minimum number of simultaneous mating into
-						the same recipient which would result in the death of
-						the recipient (lethal zygosis).
+python TraT_sim_one_donor.py [-h] [-m MODE] [-ei EXCLUSION_INDEX] [-r REPEAT] [-d DEAD_CUTOFF]
+
+Simulates the spreading of a single plasmid depending on the exclusion index (EI)
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -m MODE, --mode MODE  'm' (movie) or 'b' (batch). Default = 'm'
+  -ei EXCLUSION_INDEX, --exclusion-index EXCLUSION_INDEX
+                        Exclusion index. Default = 1 (no exclusion)
+  -r REPEAT, --repeat REPEAT
+                        Number of repeats in batch mode. Default = 50
+  -d DEAD_CUTOFF, --dead-cutoff DEAD_CUTOFF
+                        Dead cutoff. Minimum number of simultaneous mating into the same recipient which would result in the death of the recipient (lethal zygosis). Default = 5
 ```

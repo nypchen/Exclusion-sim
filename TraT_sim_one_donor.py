@@ -8,6 +8,14 @@ from numba import jit, prange
 import itertools
 import scipy.stats as st
 import pickle as pkl
+import argparse
+
+parser = argparse.ArgumentParser(description="Simulates the spreading of a single plasmid depending on the exclusion index (EI)")
+parser.add_argument("-m", "--mode", default='m', help="'m' (movie) or 'b' (batch). Default = 'm'")
+parser.add_argument("-ei", "--exclusion-index", default=1, help="Exclusion index. Default = 1 (no exclusion)")
+parser.add_argument("-r", "--repeat", default=50, help="Number of repeats in batch mode. Default = 50")
+parser.add_argument("-d", "--dead-cutoff", default=5, help="Dead cutoff. Minimum number of simultaneous mating into the same recipient which would result in the death of the recipient (lethal zygosis). Default = 5")
+args = parser.parse_args()
 
 mpl.rcParams['font.family'] = 'Helvetica Neue'
 plot_animation = True
