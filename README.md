@@ -1,4 +1,4 @@
-# TraT-sim
+# TraT-simulation
 
 This is the source code to simulate the spreading of a conjugative plasmid in a 2D static population of bacteria.
 
