@@ -18,13 +18,13 @@ numba==0.59.1
 
 ## Prepare environment
 ```shell
-conda new -n TraT_sim python==3.9
-conda activate TraT_sim
+conda new -n Exc_sim python==3.9
+conda activate Exc_sim
 pip install numpy matplotlib numba
 ```
 
 ## Run
 ```
-python TraT_sim_one_plasmid.py [-h] [-m MODE] [-ei EXCLUSION_INDEX] [-r REPEAT] [-d DEAD_CUTOFF]
-python TraT_sim_two_plasmid.py [-h] [-m MODE] [-ei EXCLUSION_INDICES] [-r REPEAT] [-d DEAD_CUTOFF]
+python Exc_sim_one_plasmid.py [-h] [-m MODE] [-ei EXCLUSION_INDEX] [-r REPEAT] [-d DEAD_CUTOFF]
+python Exc_sim_two_plasmid.py [-h] [-m MODE] [-ei EXCLUSION_INDICES] [-r REPEAT] [-d DEAD_CUTOFF]
 ```
