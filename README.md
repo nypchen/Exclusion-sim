@@ -26,6 +26,8 @@ In the more advanced version, two distinct plasmids compete with each other. Eac
 
 ## Installation
 
+Please install [Conda/Miniconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) if you haven't done so already.
+
 ```shell
 git clone https://github.com/nypchen/Exclusion-sim.git
 cd Exclusion-sim
