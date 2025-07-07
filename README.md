@@ -46,12 +46,12 @@ python two_plasmids_GUI.py
 
 ### One plasmid
 
-![One plasmid GUI](screeshots/one-plasmid-GUI.png)
-![One plasmid GUI](screeshots/one-plasmid-plot.png)
-![One plasmid GUI](screeshots/one-plasmid-movie.gif)
+![One plasmid GUI](screenshots/one-plasmid-GUI.png)
+![One plasmid GUI](screenshots/one-plasmid-plot.png)
+![One plasmid GUI](screenshots/one-plasmid-movie.gif)
 
 ### Two plasmids
 
-![Two plasmids GUI](screeshots/two-plasmids-GUI.png)
-![Two plasmids GUI](screeshots/two-plasmids-plot.png)
-![Two plasmids GUI](screeshots/two-plasmids-movie.gif)
+![Two plasmids GUI](screenshots/two-plasmids-GUI.png)
+![Two plasmids GUI](screenshots/two-plasmids-plot.png)
+![Two plasmids GUI](screenshots/two-plasmids-movie.gif)
