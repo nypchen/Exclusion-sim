@@ -41,3 +41,17 @@ conda activate exc_sim
 python one_plasmid_GUI.py
 python two_plasmids_GUI.py
 ```
+
+## Preview
+
+### One plasmid
+
+![One plasmid GUI](screeshots/one-plasmid-GUI.png)
+![One plasmid GUI](screeshots/one-plasmid-plot.png)
+![One plasmid GUI](screeshots/one-plasmid-movie.gif)
+
+### Two plasmids
+
+![Two plasmids GUI](screeshots/two-plasmids-GUI.png)
+![Two plasmids GUI](screeshots/two-plasmids-plot.png)
+![Two plasmids GUI](screeshots/two-plasmids-movie.gif)
